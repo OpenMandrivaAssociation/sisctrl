@@ -33,4 +33,4 @@ rm -rf $RPM_BUILD_ROOT
 %files
 %defattr(-,root,root)
 %{_bindir}/sisctrl
-%{_mandir}/man1/sisctrl.1x*
+%{_mandir}/man1/sisctrl.1*
