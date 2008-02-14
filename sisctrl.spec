@@ -9,6 +9,7 @@ Release: %{release}
 Source0: http://www.winischhofer.net/sis/%{name}-%{version}.%{subrelease}.tar.gz
 License: GPL
 Group: System/Kernel and hardware
+BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}-buildroot
 Url: http://www.winischhofer.net/linuxsisvga.shtml#download
 BuildRequires: X11-devel , glib2-devel , gtk+2-devel
 
