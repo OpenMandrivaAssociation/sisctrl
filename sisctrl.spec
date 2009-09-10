@@ -1,7 +1,7 @@
 %define name sisctrl
 %define version 0.0
 %define subrelease 20051202
-%define release %mkrel %{subrelease}.3
+%define release %mkrel %{subrelease}.4
 Summary:  A tool for manipulating SIS driver parameters 
 Name: %{name}
 Version: %{version}
