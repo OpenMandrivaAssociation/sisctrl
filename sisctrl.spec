@@ -11,6 +11,11 @@ License: GPL
 Group: System/Kernel and hardware
 BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}-buildroot
 Url: https://www.winischhofer.net/linuxsisvga.shtml#download
+BuildRequires:	autoconf
+BuildRequires:	automake
+BuildRequires:	libtool-base
+BuildRequires:	slibtool
+BuildRequires:	make
 BuildRequires: X11-devel , glib2-devel , gtk+2-devel
 
 %description
